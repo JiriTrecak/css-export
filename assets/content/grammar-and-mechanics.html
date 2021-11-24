@@ -1,0 +1,897 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google Analytics -->
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-12345678', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+
+    <!-- Meta information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="https://studio-assets-dev.supernova.io/design-systems/460/31086616-cfea-4956-bbec-dc66f8bb25ac.png?Expires=1951257600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwLzMxMDg2NjE2LWNmZWEtNDk1Ni1iYmVjLWRjNjZmOGJiMjVhYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NTEyNTc2MDB9fX1dfQ__&Signature=WCTziIUyXzJRDAl78V~mZjK7zsKzZDPBW0Dzlqp3aPmKl6TsE~gBo-FtWWo84ZyAnqfH0wOVgvGMAsjfVf8EYntbX6qrn3TOCHT70u9Lv32lJkemxhqTswoaJXr8RU~SrxclPSE-neSJe-ZbVsYQQgMoCqSKA0dwDzYSuIsC04Kas5AwKAYso68OreNdFS8-S4XaEfa3wM7GYXNpvfk6T06OP6oDEc9tvHnrcYK0jQCOjyScvX3XiRReb-Dm7j7YCxgQrtBHB6pOUtCfkbUV4tV6hqU4JQLWRUKVgR0f5nwzcp-a29MKFgPUhRKzpeo-is-393ZlEa0Ggbc~5-70uQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA" rel="icon" />
+    <title>Supernova Documentation >  Grammar and mechanics</title>
+    <meta name="description" content="We are building the most powerful system in existence">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Documentation Styling –->
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    
+    <!-- Search -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/search.css" />
+    
+    <!-- DS Autogen -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/ds/index.css" />
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+    
+    <!-- Code highlight -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/code-highlight.css" />
+    
+    
+    </head>
+<body class="light">
+
+
+<div class="SNSearch SNSearch-container">
+   <div class="SNSearch-box">
+      <header class="SNSearch-header">
+         <label class="SNSearch-input-label">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M5.5 1.5C3.3 1.5 1.5 3.3 1.5 5.5C1.5 7.7 3.3 9.5 5.5 9.5C7.7 9.5 9.5 7.7 9.5 5.5C9.5 3.3 7.7 1.5 5.5 1.5ZM5.5 0.5C8.3 0.5 10.5 2.7 10.5 5.5C10.5 6.7 10.1 7.8 9.4 8.7L12.4 11.7L11.7 12.4L8.7 9.4C7.8 10.1 6.7 10.5 5.5 10.5C2.7 10.5 0.5 8.3 0.5 5.5C0.5 2.7 2.7 0.5 5.5 0.5Z" fill="black" fill-opacity="0.3"/>
+            </svg>
+         </label>
+         <form action="" novalidate="" class="SNSearch-form">
+            <input class="SNSearch-input" id="SNSearch-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search docs" maxlength="64" enterkeyhint="go">
+         </form>
+         <div class="SNSearch-close search"></div>
+      </header>
+      <div class="SNSearch-results">
+        
+      </div>
+      <footer class="SNSearch-footer">
+         <div>
+         </div>
+         <div class="info">
+            to exit <span>ESC</span>
+         </div>
+      </footer>
+   </div>
+</div>
+<!-- Document Wrapper -->
+<div id="main-wrapper"> 
+  
+  <!-- Content -->
+  <div id="content" role="main" class="">
+  
+    
+    
+    <!-- Header --> 
+    <header id="header" class="sticky-top"> 
+        
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-text-dark">
+    
+            <!-- Logo -->
+    
+            <!-- Sidebar Toggler -->
+            <button id="sidebarCollapse" class="toggle-navbar" type="button"></button>
+    
+            <!-- Redirect to the first real page on logo click -->
+    
+            <a href="/introduction/overview-1.html">
+                <div class="logo-wrapper">
+                
+                        <img class="default" src="https://studio-assets-dev.supernova.io/design-systems/460/f0e9fbed-5f23-4f3e-a090-dd26d808246d.svg?Expires=1951257600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwL2YwZTlmYmVkLTVmMjMtNGYzZS1hMDkwLWRkMjZkODA4MjQ2ZC5zdmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NTEyNTc2MDB9fX1dfQ__&Signature=QiLX2M~ZSLQFsBt6gLJQVDlgkn3VLQkplRCLHBGc7fK7EsE1ACKJd~UHZSlR6E-HILpknbc~cgASJJg-fPVwlJZa3xhKhja~81TmfyLzO9-pyeSMGoyeNSu~SXDKL6-YkF4a-iPfBer41xsqnUfvULPG7F9RSFReHPUPrFbHbmI5kkk13ty2UpQVkysSa8ESO~7OW~ubiDK5fEXgW1GkxNGMK70G2sfmpFh7MyzDkO17VyNMMFLNDjQpraFQegC2jq88p7VStEd-WdrSGU808aMZyOqecx-6qRKKii5TYNiFljRBLJpmn-XtAsBx8PY5KD1tiIzV0GnNoZgsUIvCTQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA" alt="Our Documentation" />
+                </div>
+            </a>
+    
+            <div class="container-fluid">
+    
+            <!-- Potential Left Link Here -->
+            <div id="header-nav" class="navbar-collapse">
+                <ul class="navbar-nav">
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/introduction/overview-1.html">Introduction</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/foundation/brand.html">Foundation</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/style-1.html">Style</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation active" href="/content/communication-guide.html">Content</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/components/getting-started.html">Components</a></li>
+                            
+                </ul>
+    
+    
+                <div class="utility-nav">
+                
+                <div id="mobile-menu-container" class="dropdown">
+                    <button class="btn btn-secondary btn-outlined" type="button" id="mobile-menu-selector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+                        
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                        Content
+                                
+                                
+                                
+                                
+                    </button>
+                    <div class="dropdown-menu pull-right" aria-labelledby="mobile-menu-selector">
+                            
+                            
+                                <a class="dropdown-item " href="/introduction/overview-1.html">Introduction</a>
+                            
+                            
+                            
+                                <a class="dropdown-item " href="/foundation/brand.html">Foundation</a>
+                            
+                            
+                            
+                                <a class="dropdown-item " href="/style-1.html">Style</a>
+                            
+                            
+                            
+                                <a class="dropdown-item checked" href="/content/communication-guide.html">Content</a>
+                            
+                            
+                            
+                                <a class="dropdown-item " href="/components/getting-started.html">Components</a>
+                            
+                    </div>
+                </div>
+    
+                <div id="version-container" class="dropdown">
+                    <button class="btn btn-secondary btn-outlined" type="button" id="version-selector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Loading
+                    </button>
+                    <div class="dropdown-menu pull-right" aria-labelledby="version-selector">
+                    </div>
+                </div>
+                <i class="fas fa-search search"></i>
+                
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->    
+      <!-- Sidebar Navigation -->
+      <div class="docs-navigation bg-sidebar">
+
+ 
+              
+                  <div class="nav-name">
+                      <span class="typographyDocsViewLabelCaps">CONTENT</span>
+                  </div>
+              <ul class="nav flex-column ">
+                          <li class="nav-item"><a class="nav-link typographyDocsViewNavigation " href="/content/communication-guide.html"> Communication guide</a><li>
+                          <li class="nav-item"><a class="nav-link typographyDocsViewNavigation " href="/content/voice-and-tone.html"> Voice and tone</a><li>
+                          <li class="nav-item"><a class="nav-link typographyDocsViewNavigation active" href="/content/grammar-and-mechanics.html"> Grammar and mechanics</a><li>
+              </ul>
+          
+          <div class="nav-sn">
+              <a href="https://supernova.io" target="_blank">
+                  <img src="/assets/logos/powered-by-supernova.png" title="Supernova, the most advanced design system platform" alt="Supernova, the most advanced design system platform" />
+              </a>
+          </div>      </div>
+    
+    <!-- Docs Content -->
+    <div class="docs-content ">
+
+      
+      
+      
+      
+      
+      
+      <div class="container-title  " style="height: auto;">
+          <div class="slider">
+              
+                  <h1 style="">Grammar and mechanics</h1>
+                  
+          </div>
+      </div>
+          
+          <ul class="nav nav-tabs" id="page-tab" role="tablist">
+              <li class="nav-item">
+                  <a class="nav-link active" id="tab-55591" href="/content/communication-guide.html" role="tab" aria-controls="home" aria-selected="true">Communication guide</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" id="tab-55589" href="/content/voice-and-tone.html" role="tab" aria-controls="home" aria-selected="true">Voice and tone</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" id="tab-55590" href="/content/grammar-and-mechanics.html" role="tab" aria-controls="home" aria-selected="true">Grammar and mechanics</a>
+              </li>
+          </ul>
+      
+      
+      
+      <div class="container">
+        <section id="section-content-page">
+        <div class="tab-content" id="page-tab-content">
+                    
+                                            
+                                                <h2 id="basics">
+                                                                  
+                                                                  
+                                                              
+                                                              Basics
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                            <ul>
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Use American English grammar and spelling.</strong> If you don’t already use Grammarly — get it!
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Focus your message. </strong>What’s the angle you’re taking? Where do you want the reader to go next? What is the ultimate goal you want them to reach?
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Consistency is key. </strong>Once we set a recognizable term for something, use that same term throughout the product and marketing. This takes attention and care—but users will notice.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Be inclusive.</strong> We write for every level of designers and developers equally. We want our content to be as accessible as possible, so never assume someone’s level of understanding. That said, we still need to speak the language of product design and mobile app development—because that’s our familiar domain. When you need to use jargon, invite users in with it, don’t shut them out.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Make it about the customer. </strong>Most headlines, body copy, and articles should focus on the user, not on how awesome we are (though truth be told, we are pretty awesome). Use real customer language where possible. Try to avoid “we” language in external-facing copy, though it may be useful on occasion. 
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Always use active voice. </strong>How? Don’t get the subject and the object of the sentence mixed up. The subject should always be doing the action to the object. 
+                                        </li>
+                        <div class="block-children">
+                                
+                                            
+                                            
+                                            <p>
+                                                   
+                                                   
+                                               
+                                               Example:
+                                               </p>
+                                            
+                                            
+                                
+                                
+                                            
+                                                            
+                                                            
+                                                            <p class="lead">
+                                                                                
+                                                                                
+                                                                            
+                                                                            🚫 “The essential tools are provided by us.”
+                                                                            ✅ “We provide the essential tools…
+                                                                            </p>
+                                
+                                
+                                    </div>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Use contractions.</strong> Contractions add a human element to writing. We’re into them.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Positive framing.</strong> While framing things in the negative can be tempting, positive messages are generally more effective and empowering. It’s okay to name problems. But overall, stay focused on the outcomes and benefits we provide, not on negations or failures.
+                                        </li>
+                    
+                    </ul>
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                                        
+                                                                        
+                                                                        <hr class="divider">
+                    
+                    
+                                        
+                                            
+                                                <h2 id="other-guidelines">
+                                                                  
+                                                                  
+                                                              
+                                                              Other guidelines
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                            
+                                                <h3 id="date-time">
+                                                                  
+                                                                  
+                                                              
+                                                              Date & Time
+                                                              </h3>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   Spell out the month to avoid confusion for our US audience. (Oops, sorry rest of the world!) Use the 24 hours format followed by the timezone of where an event is taking place. 
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   Example: 
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                
+                                                
+                                                <p class="lead">
+                                                                    
+                                                                    
+                                                                
+                                                                ✅ January 15th, 2020 at 17:00 CEST
+                                                                </p>
+                    
+                    
+                                        
+                                            
+                                                <h3 id="emojis">
+                                                                  
+                                                                  
+                                                              
+                                                              Emojis
+                                                              </h3>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   Emojis are a modern form of communication. We embrace them with a bit of guidance. Always ensure the emoji is relevant, appropriate, and used at the end of a sentence. Emojis should only be used in emails, email subject lines, chatbot communication, or blogs.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                            
+                                                <h3 id="abbreviations-and-acronyms">
+                                                                  
+                                                                  
+                                                              
+                                                              Abbreviations and acronyms
+                                                              </h3>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   Always spell acronyms out the first time followed by the abbreviation in parentheses. 
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   Example:
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                
+                                                
+                                                <p class="lead">
+                                                                    
+                                                                    
+                                                                
+                                                                Supernova Design Continuous Delivery (DCD)
+                                                                </p>
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                                        
+                                                                        
+                                                                        <hr class="divider">
+                    
+                    
+                                        
+                                            
+                                                <h2 id="punctuation">
+                                                                  
+                                                                  
+                                                              
+                                                              Punctuation
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                            
+                                                <h3 id="oxford-comma">
+                                                                  
+                                                                  
+                                                              
+                                                              Oxford Comma
+                                                              </h3>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   We love it. The more clarity, precision, and exactness — the better. 
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                            
+                                                <h3 id="capitalization">
+                                                                  
+                                                                  
+                                                              
+                                                              Capitalization 
+                                                              </h3>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                   
+                                   Almost everything should be sentence case. Article titles, page titles, and H1-H4 etc. should be Title Case using <a href="" target="_blank">this tool</a>.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                                        
+                                                                        
+                                                                        <hr class="divider">
+                    
+                    
+                                        
+                                            
+                                                <h2 id="supernova-specifics">
+                                                                  
+                                                                  
+                                                              
+                                                              Supernova-specifics
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   All following sections are listed alphabetically for ease of search:
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                            <ul>
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Design systems:</strong> Not a proper noun — use lowercase letters
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Frontend:</strong> one word
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Studio:</strong> The downloadable desktop application — used only to distinguish between the offline app and cloud versions. 
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                            
+                                            
+                                        
+                                        <strong>Supernova:</strong> The entity of the company, regardless of features. We do not use Supernova Cloud separately.
+                                        </li>
+                    
+                    </ul>
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                                        
+                                                                        
+                                                                        <hr class="divider">
+                    
+                    
+                                        
+                                            
+                                                <h2 id="types-of-content">
+                                                                  
+                                                                  
+                                                              
+                                                              Types of Content
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   From least to most formal:
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                            <ul>
+                                    <li>
+                                            
+                                            
+                                        
+                                        Social Media
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Articles
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Newsletters
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Website
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Chatbots
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Help Center
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Support
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        UX
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Technical Documentation 
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Legal Content
+                                        </li>
+                    
+                    </ul>
+                    
+                            </div>
+        </section>
+        <div id="content-nav-container">
+            <nav id="content-nav">
+                <span class="content-nav-header">CONTENTS</span>
+                <ul>
+                    <li class=""><a href="#basics">Basics</a></li>
+                    <li class=""><a href="#other-guidelines">Other guidelines</a></li>
+                    <li class="sub"><a href="#date-time">Date & Time</a></li>
+                    <li class="sub"><a href="#emojis">Emojis</a></li>
+                    <li class="sub"><a href="#abbreviations-and-acronyms">Abbreviations and acronyms</a></li>
+                    <li class=""><a href="#punctuation">Punctuation</a></li>
+                    <li class="sub"><a href="#oxford-comma">Oxford Comma</a></li>
+                    <li class="sub"><a href="#capitalization">Capitalization </a></li>
+                    <li class=""><a href="#supernova-specifics">Supernova-specifics</a></li>
+                    <li class=""><a href="#types-of-content">Types of Content</a></li>
+                </ul>
+            </nav>
+        </div>      </div>
+    </div>
+  </div>
+  <!-- Content end --> 
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- JavaScript -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+
+<!-- Prism -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+
+<!-- Magnific Popup --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- Live sandbox -->
+<script src="/assets/js/live-sandbox.js"></script> 
+
+<!-- Search Support-->
+<script src="https://unpkg.com/lunr/lunr.js"></script>  
+<script src="/si.js"></script>  
+
+<!-- General scripts -->
+<script src="/assets/js/functionality.js"></script>
+
+<!-- Versions -->
+<script>
+$(document).ready(function() {
+    loadVersions("null/../versions.json")
+});
+</script>
+
+
+<!-- Intercom tracker -->
+<script>
+var APP_ID = "e8y21262"; 
+window.intercomSettings = {
+    app_id: APP_ID
+};
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);} } } )();</script>
+
+</body>
+</html>

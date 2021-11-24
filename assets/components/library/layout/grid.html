@@ -1,0 +1,940 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google Analytics -->
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-12345678', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+
+    <!-- Meta information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="https://studio-assets-dev.supernova.io/design-systems/460/31086616-cfea-4956-bbec-dc66f8bb25ac.png?Expires=1951257600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwLzMxMDg2NjE2LWNmZWEtNDk1Ni1iYmVjLWRjNjZmOGJiMjVhYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NTEyNTc2MDB9fX1dfQ__&Signature=WCTziIUyXzJRDAl78V~mZjK7zsKzZDPBW0Dzlqp3aPmKl6TsE~gBo-FtWWo84ZyAnqfH0wOVgvGMAsjfVf8EYntbX6qrn3TOCHT70u9Lv32lJkemxhqTswoaJXr8RU~SrxclPSE-neSJe-ZbVsYQQgMoCqSKA0dwDzYSuIsC04Kas5AwKAYso68OreNdFS8-S4XaEfa3wM7GYXNpvfk6T06OP6oDEc9tvHnrcYK0jQCOjyScvX3XiRReb-Dm7j7YCxgQrtBHB6pOUtCfkbUV4tV6hqU4JQLWRUKVgR0f5nwzcp-a29MKFgPUhRKzpeo-is-393ZlEa0Ggbc~5-70uQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA" rel="icon" />
+    <title>Supernova Documentation >  Grid</title>
+    <meta name="description" content="We are building the most powerful system in existence">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Documentation Styling –->
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    
+    <!-- Search -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/search.css" />
+    
+    <!-- DS Autogen -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/ds/index.css" />
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+    
+    <!-- Code highlight -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/code-highlight.css" />
+    
+    
+    </head>
+<body class="light">
+
+
+<div class="SNSearch SNSearch-container">
+   <div class="SNSearch-box">
+      <header class="SNSearch-header">
+         <label class="SNSearch-input-label">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M5.5 1.5C3.3 1.5 1.5 3.3 1.5 5.5C1.5 7.7 3.3 9.5 5.5 9.5C7.7 9.5 9.5 7.7 9.5 5.5C9.5 3.3 7.7 1.5 5.5 1.5ZM5.5 0.5C8.3 0.5 10.5 2.7 10.5 5.5C10.5 6.7 10.1 7.8 9.4 8.7L12.4 11.7L11.7 12.4L8.7 9.4C7.8 10.1 6.7 10.5 5.5 10.5C2.7 10.5 0.5 8.3 0.5 5.5C0.5 2.7 2.7 0.5 5.5 0.5Z" fill="black" fill-opacity="0.3"/>
+            </svg>
+         </label>
+         <form action="" novalidate="" class="SNSearch-form">
+            <input class="SNSearch-input" id="SNSearch-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search docs" maxlength="64" enterkeyhint="go">
+         </form>
+         <div class="SNSearch-close search"></div>
+      </header>
+      <div class="SNSearch-results">
+        
+      </div>
+      <footer class="SNSearch-footer">
+         <div>
+         </div>
+         <div class="info">
+            to exit <span>ESC</span>
+         </div>
+      </footer>
+   </div>
+</div>
+<!-- Document Wrapper -->
+<div id="main-wrapper"> 
+  
+  <!-- Content -->
+  <div id="content" role="main" class="">
+  
+    
+    
+    <!-- Header --> 
+    <header id="header" class="sticky-top"> 
+        
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-text-dark">
+    
+            <!-- Logo -->
+    
+            <!-- Sidebar Toggler -->
+            <button id="sidebarCollapse" class="toggle-navbar" type="button"></button>
+    
+            <!-- Redirect to the first real page on logo click -->
+    
+            <a href="/introduction/overview-1.html">
+                <div class="logo-wrapper">
+                
+                        <img class="default" src="https://studio-assets-dev.supernova.io/design-systems/460/f0e9fbed-5f23-4f3e-a090-dd26d808246d.svg?Expires=1951257600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwL2YwZTlmYmVkLTVmMjMtNGYzZS1hMDkwLWRkMjZkODA4MjQ2ZC5zdmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NTEyNTc2MDB9fX1dfQ__&Signature=QiLX2M~ZSLQFsBt6gLJQVDlgkn3VLQkplRCLHBGc7fK7EsE1ACKJd~UHZSlR6E-HILpknbc~cgASJJg-fPVwlJZa3xhKhja~81TmfyLzO9-pyeSMGoyeNSu~SXDKL6-YkF4a-iPfBer41xsqnUfvULPG7F9RSFReHPUPrFbHbmI5kkk13ty2UpQVkysSa8ESO~7OW~ubiDK5fEXgW1GkxNGMK70G2sfmpFh7MyzDkO17VyNMMFLNDjQpraFQegC2jq88p7VStEd-WdrSGU808aMZyOqecx-6qRKKii5TYNiFljRBLJpmn-XtAsBx8PY5KD1tiIzV0GnNoZgsUIvCTQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA" alt="Our Documentation" />
+                </div>
+            </a>
+    
+            <div class="container-fluid">
+    
+            <!-- Potential Left Link Here -->
+            <div id="header-nav" class="navbar-collapse">
+                <ul class="navbar-nav">
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/introduction/overview-1.html">Introduction</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/foundation/brand.html">Foundation</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/style-1.html">Style</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation " href="/content/communication-guide.html">Content</a></li>
+                            
+                            
+                            
+                                <li><a class="typographyDocsViewNavigation active" href="/components/getting-started.html">Components</a></li>
+                            
+                </ul>
+    
+    
+                <div class="utility-nav">
+                
+                <div id="mobile-menu-container" class="dropdown">
+                    <button class="btn btn-secondary btn-outlined" type="button" id="mobile-menu-selector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+                        
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                        Components
+                                
+                    </button>
+                    <div class="dropdown-menu pull-right" aria-labelledby="mobile-menu-selector">
+                            
+                            
+                                <a class="dropdown-item " href="/introduction/overview-1.html">Introduction</a>
+                            
+                            
+                            
+                                <a class="dropdown-item " href="/foundation/brand.html">Foundation</a>
+                            
+                            
+                            
+                                <a class="dropdown-item " href="/style-1.html">Style</a>
+                            
+                            
+                            
+                                <a class="dropdown-item " href="/content/communication-guide.html">Content</a>
+                            
+                            
+                            
+                                <a class="dropdown-item checked" href="/components/getting-started.html">Components</a>
+                            
+                    </div>
+                </div>
+    
+                <div id="version-container" class="dropdown">
+                    <button class="btn btn-secondary btn-outlined" type="button" id="version-selector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Loading
+                    </button>
+                    <div class="dropdown-menu pull-right" aria-labelledby="version-selector">
+                    </div>
+                </div>
+                <i class="fas fa-search search"></i>
+                
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->    
+      <!-- Sidebar Navigation -->
+      <div class="docs-navigation bg-sidebar">
+
+ 
+              
+                  <div class="nav-name">
+                      <span class="typographyDocsViewLabelCaps">COMPONENTS</span>
+                  </div>
+              <ul class="nav flex-column ">
+                          <li class="nav-item"><a class="nav-link typographyDocsViewNavigation " href="/components/getting-started.html"> Getting Started</a><li>
+                          <li class="nav-item">
+                          
+                              <a class="nav-link typographyDocsViewNavigation group active" href="/components/library/layout/grid.html"> Library</a>
+                                                                                      
+                                                                                      <ul class="nav flex-column ">
+                                                                                                  <li class="nav-item">
+                                                                                                  
+                                                                                                      <a class="nav-link typographyDocsViewNavigation group active" href="/components/library/layout/grid.html"> Layout</a>
+                                                                                                                                                              
+                                                                                                                                                              <ul class="nav flex-column ">
+                                                                                                                                                                          <li class="nav-item"><a class="nav-link typographyDocsViewNavigation active" href="/components/library/layout/grid.html"> Grid</a><li>
+                                                                                                                                                                          <li class="nav-item"><a class="nav-link typographyDocsViewNavigation " href="/components/library/layout/image-list.html"> Image List</a><li>
+                                                                                                                                                              </ul>
+                                                                                                                                                          
+                                                                                                                                                          <div class="nav-sn">
+                                                                                                                                                              <a href="https://supernova.io" target="_blank">
+                                                                                                                                                                  <img src="/assets/logos/powered-by-supernova.png" title="Supernova, the most advanced design system platform" alt="Supernova, the most advanced design system platform" />
+                                                                                                                                                              </a>
+                                                                                                                                                          </div>                </li>
+                                                                                                  <li class="nav-item">
+                                                                                                  
+                                                                                                      <a class="nav-link typographyDocsViewNavigation group " href="/components/library/inputs/button.html"> Inputs</a>
+                                                                                                  </li>
+                                                                                                  <li class="nav-item">
+                                                                                                  
+                                                                                                      <a class="nav-link typographyDocsViewNavigation group " href="/components/library/navigation/breadcrumbs.html"> Navigation</a>
+                                                                                                  </li>
+                                                                                                  <li class="nav-item">
+                                                                                                  
+                                                                                                      <a class="nav-link typographyDocsViewNavigation group " href="/components/library/experimental/new-sections.html"> Experimental</a>
+                                                                                                  </li>
+                                                                                      </ul>
+                                                                                  
+                                                                                  <div class="nav-sn">
+                                                                                      <a href="https://supernova.io" target="_blank">
+                                                                                          <img src="/assets/logos/powered-by-supernova.png" title="Supernova, the most advanced design system platform" alt="Supernova, the most advanced design system platform" />
+                                                                                      </a>
+                                                                                  </div>                </li>
+              </ul>
+          
+          <div class="nav-sn">
+              <a href="https://supernova.io" target="_blank">
+                  <img src="/assets/logos/powered-by-supernova.png" title="Supernova, the most advanced design system platform" alt="Supernova, the most advanced design system platform" />
+              </a>
+          </div>      </div>
+    
+    <!-- Docs Content -->
+    <div class="docs-content ">
+
+      
+      
+      
+      
+      
+      
+      <div class="container-title  " style="height: auto;">
+          <div class="slider">
+              
+                  <h1 style="">Grid</h1>
+                  
+          </div>
+      </div>
+          
+          <ul class="nav nav-tabs" id="page-tab" role="tablist">
+              <li class="nav-item">
+                  <a class="nav-link active" id="tab-56115" href="/components/library/layout/grid.html" role="tab" aria-controls="home" aria-selected="true">Grid</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" id="tab-56116" href="/components/library/layout/image-list.html" role="tab" aria-controls="home" aria-selected="true">Image List</a>
+              </li>
+          </ul>
+      
+      
+      
+      <div class="container">
+        <section id="section-content-page">
+        <div class="tab-content" id="page-tab-content">
+                    
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   The grid creates visual consistency between layouts while allowing flexibility across a wide variety of designs. Material Design’s responsive UI is based on a 12-column grid layout.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                            
+                                                                <div class="alert alert-warning">
+                                                                                                         
+                                                                                                         
+                                                                                                     
+                                                                                                     The Grid component shouldn't be confused with a data grid; it is closer to a layout grid. For a data grid head to the DataGrid component.
+                                                                                                     </div>
+                                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                            
+                                                <h2 id="how-it-works">
+                                                                  
+                                                                  
+                                                              
+                                                              How it works
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   The grid system is implemented with the Grid component:
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                            <ul>
+                                    <li>
+                                            
+                                            
+                                        
+                                        It uses CSS’s Flexible Box module for high flexibility.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        There are two types of layout: containers and items.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Item widths are set in percentages, so they’re always fluid and sized relative to their parent element.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        Items have padding to create the spacing between individual items.
+                                        </li>
+                    
+                    
+                                        
+                                    <li>
+                                            
+                                            
+                                        
+                                        There are five grid breakpoints: xs, sm, md, lg, and xl.
+                                        </li>
+                    
+                    </ul>
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   If you are new to or unfamiliar with flexbox, we encourage you to read this CSS-Tricks flexbox guide.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                            
+                                                <h2 id="spacing">
+                                                                  
+                                                                  
+                                                              
+                                                              Spacing
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                   
+                                   The responsive grid focuses on consistent spacing widths, rather than column width. Material Design margins and columns follow an 8px square baseline grid. The spacing property is an integer between 0 and 10 inclusive. By default, the spacing between two grid items follows a linear function: <mark>output(spacing) = spacing * 8px</mark>, e.g. <mark>spacing={2}</mark> creates a 16px wide gap.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   This output transformation function can be customized using the theme.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <div class="sandbox-main-wrapper">
+                                                        
+                                                        <div class="sandbox-state-wrapper">
+                                                            <div class="sandbox-loader-container" data-target="sandbox-3515710">
+                                                                <div class="sandbox-loader"></div>
+                                                            </div>
+                                                            <div class="sandbox-container checkered-background-light" style="height: 151px; background-color: transparent">
+                                                                <div id="sandbox-3515710" sn-sandbox-data="eyJ0eXBlIjoicmVhY3QiLCJjb2RlIjoiaW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgc3R5bGVkIH0gZnJvbSAnQG11aS9tYXRlcmlhbC9zdHlsZXMnO1xuaW1wb3J0IEJveCBmcm9tICdAbXVpL21hdGVyaWFsL0JveCc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG11aS9tYXRlcmlhbC9QYXBlcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbXVpL21hdGVyaWFsL0dyaWQnO1xuXG5jb25zdCBJdGVtID0gc3R5bGVkKFBhcGVyKSgoeyB0aGVtZSB9KSA9PiAoe1xuICAuLi50aGVtZS50eXBvZ3JhcGh5LmJvZHkyLFxuICBwYWRkaW5nOiB0aGVtZS5zcGFjaW5nKDEpLFxuICB0ZXh0QWxpZ246ICdjZW50ZXInLFxuICBjb2xvcjogdGhlbWUucGFsZXR0ZS50ZXh0LnNlY29uZGFyeSxcbn0pKTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQmFzaWNHcmlkKCkge1xuICByZXR1cm4gKFxuICAgIDxCb3ggc3g9e3sgZmxleEdyb3c6IDEgfX0+XG4gICAgICA8R3JpZCBjb250YWluZXIgc3BhY2luZz17Mn0+XG4gICAgICAgIDxHcmlkIGl0ZW0geHM9ezh9PlxuICAgICAgICAgIDxJdGVtPnhzPTg8L0l0ZW0+XG4gICAgICAgIDwvR3JpZD5cbiAgICAgICAgPEdyaWQgaXRlbSB4cz17NH0+XG4gICAgICAgICAgPEl0ZW0+eHM9NDwvSXRlbT5cbiAgICAgICAgPC9HcmlkPlxuICAgICAgICA8R3JpZCBpdGVtIHhzPXs0fT5cbiAgICAgICAgICA8SXRlbT54cz00PC9JdGVtPlxuICAgICAgICA8L0dyaWQ+XG4gICAgICAgIDxHcmlkIGl0ZW0geHM9ezh9PlxuICAgICAgICAgIDxJdGVtPnhzPTg8L0l0ZW0+XG4gICAgICAgIDwvR3JpZD5cbiAgICAgIDwvR3JpZD5cbiAgICA8L0JveD5cbiAgKTtcbn1cbiIsInBhY2thZ2VKU09OIjoie1xuICAgIFwibmFtZVwiOiBcInN1cGVybm92YS1saXZlLXJlYWN0XCIsXG4gICAgXCJ2ZXJzaW9uXCI6IFwiMS4wLjBcIixcbiAgICBcImRlc2NyaXB0aW9uXCI6IFwiTGl2ZSBSZWFjdCBDb2RlIFBhY2thZ2VyXCIsXG4gICAgXCJrZXl3b3Jkc1wiOiBbXCJyZWFjdFwiLCBcInN1cGVybm92YVwiXSxcbiAgICBcIm1haW5cIjogXCJzcmMvaW5kZXguanNcIixcbiAgICBcImRlcGVuZGVuY2llc1wiOiB7XG4gICAgICBcInJlYWN0LWRvbVwiOiBcImxhdGVzdFwiLFxuICAgICAgXCJyZWFjdFwiOiBcImxhdGVzdFwiLFxuICAgICAgXCJAbXVpL21hdGVyaWFsXCI6IFwibGF0ZXN0XCIsXG4gICAgICBcIkBlbW90aW9uL3N0eWxlZFwiOiBcImxhdGVzdFwiLFxuICAgICAgXCJAZW1vdGlvbi9yZWFjdFwiOiBcImxhdGVzdFwiXG4gIFxuICAgIH0sXG4gICAgXCJkZXZEZXBlbmRlbmNpZXNcIjoge1xuICAgICAgXCJAYmFiZWwvcnVudGltZVwiOiBcIjcuMTMuOFwiLFxuICAgICAgXCJ0eXBlc2NyaXB0XCI6IFwiNC4xLjNcIlxuICAgIH0sXG4gICAgXCJzY3JpcHRzXCI6IHtcbiAgICAgIFwic3RhcnRcIjogXCJyZWFjdC1zY3JpcHRzIHN0YXJ0XCIsXG4gICAgICBcImJ1aWxkXCI6IFwicmVhY3Qtc2NyaXB0cyBidWlsZFwiLFxuICAgICAgXCJ0ZXN0XCI6IFwicmVhY3Qtc2NyaXB0cyB0ZXN0IC0tZW52PWpzZG9tXCIsXG4gICAgICBcImVqZWN0XCI6IFwicmVhY3Qtc2NyaXB0cyBlamVjdFwiXG4gICAgfSxcbiAgICBcImJyb3dzZXJzbGlzdFwiOiBbXCI+MC4yJVwiLCBcIm5vdCBkZWFkXCIsIFwibm90IGllIDw9IDExXCIsIFwibm90IG9wX21pbmkgYWxsXCJdXG4gIH0iLCJ2aXN1YWwiOnsiZm9yY2VkSGVpZ2h0IjoxNTEsImhvcml6b250YWxBbGlnbm1lbnQiOiJjZW50ZXIiLCJ2ZXJ0aWNhbEFsaWdubWVudCI6ImNlbnRlciIsImJhY2tncm91bmRIZXgiOiIjZjlmOWZhZmYifX0="></div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="sandbox-container-meta">
+                                                    
+                                                            <div class="sandbox-container-buttons">
+                                                            
+                                                            <a class="btn btn-light" data-toggle="collapse" href="#codepreview-sandbox-3515710" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                Toggle code
+                                                            </a>
+                                                    
+                                                            
+                                                            <a class="btn btn-light sandbox-copy" data-toggle="tooltip" title="Copy component code">
+                                                                <div class="sandbox-copy-icon" data-toggle="copy-from-sandbox" data-target="sandbox-3515710"></div>
+                                                            </a>
+                                                            </div>
+                                                    
+                                                            
+                                                            <div class="sandbox-text collapse" id="codepreview-sandbox-3515710">
+                                                                <pre><code class="language-javascript">
+                                                                import * as React from 'react';
+                                                    import { styled } from '@mui/material/styles';
+                                                    import Box from '@mui/material/Box';
+                                                    import Paper from '@mui/material/Paper';
+                                                    import Grid from '@mui/material/Grid';
+                                                    
+                                                    const Item = styled(Paper)(({ theme }) =&gt; ({
+                                                      ...theme.typography.body2,
+                                                      padding: theme.spacing(1),
+                                                      textAlign: 'center',
+                                                      color: theme.palette.text.secondary,
+                                                    }));
+                                                    
+                                                    export default function BasicGrid() {
+                                                      return (
+                                                        &lt;Box sx={{ flexGrow: 1 }}&gt;
+                                                          &lt;Grid container spacing={2}&gt;
+                                                            &lt;Grid item xs={8}&gt;
+                                                              &lt;Item&gt;xs=8&lt;/Item&gt;
+                                                            &lt;/Grid&gt;
+                                                            &lt;Grid item xs={4}&gt;
+                                                              &lt;Item&gt;xs=4&lt;/Item&gt;
+                                                            &lt;/Grid&gt;
+                                                            &lt;Grid item xs={4}&gt;
+                                                              &lt;Item&gt;xs=4&lt;/Item&gt;
+                                                            &lt;/Grid&gt;
+                                                            &lt;Grid item xs={8}&gt;
+                                                              &lt;Item&gt;xs=8&lt;/Item&gt;
+                                                            &lt;/Grid&gt;
+                                                          &lt;/Grid&gt;
+                                                        &lt;/Box&gt;
+                                                      );
+                                                    }
+                                                    
+                                                                </code></pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                    
+                                        
+                                            
+                                                <h2 id="fluid-grids">
+                                                                  
+                                                                  
+                                                              
+                                                              Fluid grids
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   Fluid grids use columns that scale and resize content. A fluid grid’s layout can use breakpoints to determine if the layout needs to change dramatically.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                            
+                                                <h3 id="basic-grid">
+                                                                  
+                                                                  
+                                                              
+                                                              Basic grid
+                                                              </h3>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   The column widths apply at all breakpoints (i.e. xs and up).
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <div class="sandbox-main-wrapper">
+                                                        
+                                                        <div class="sandbox-state-wrapper">
+                                                            <div class="sandbox-loader-container" data-target="sandbox-54067896">
+                                                                <div class="sandbox-loader"></div>
+                                                            </div>
+                                                            <div class="sandbox-container checkered-background-light" style="height: 189px; background-color: transparent">
+                                                                <div id="sandbox-54067896" sn-sandbox-data="eyJ0eXBlIjoicmVhY3QiLCJjb2RlIjoiaW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgc3R5bGVkIH0gZnJvbSAnQG11aS9tYXRlcmlhbC9zdHlsZXMnO1xuaW1wb3J0IEJveCBmcm9tICdAbXVpL21hdGVyaWFsL0JveCc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG11aS9tYXRlcmlhbC9QYXBlcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbXVpL21hdGVyaWFsL0dyaWQnO1xuXG5jb25zdCBJdGVtID0gc3R5bGVkKFBhcGVyKSgoeyB0aGVtZSB9KSA9PiAoe1xuICAuLi50aGVtZS50eXBvZ3JhcGh5LmJvZHkyLFxuICBwYWRkaW5nOiB0aGVtZS5zcGFjaW5nKDEpLFxuICB0ZXh0QWxpZ246ICdjZW50ZXInLFxuICBjb2xvcjogdGhlbWUucGFsZXR0ZS50ZXh0LnNlY29uZGFyeSxcbn0pKTtcblxuZnVuY3Rpb24gRm9ybVJvdygpIHtcbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8R3JpZCBpdGVtIHhzPXs0fT5cbiAgICAgICAgPEl0ZW0+SXRlbTwvSXRlbT5cbiAgICAgIDwvR3JpZD5cbiAgICAgIDxHcmlkIGl0ZW0geHM9ezR9PlxuICAgICAgICA8SXRlbT5JdGVtPC9JdGVtPlxuICAgICAgPC9HcmlkPlxuICAgICAgPEdyaWQgaXRlbSB4cz17NH0+XG4gICAgICAgIDxJdGVtPkl0ZW08L0l0ZW0+XG4gICAgICA8L0dyaWQ+XG4gICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmVzdGVkR3JpZCgpIHtcbiAgcmV0dXJuIChcbiAgICA8Qm94IHN4PXt7IGZsZXhHcm93OiAxIH19PlxuICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezF9PlxuICAgICAgICA8R3JpZCBjb250YWluZXIgaXRlbSBzcGFjaW5nPXszfT5cbiAgICAgICAgICA8Rm9ybVJvdyAvPlxuICAgICAgICA8L0dyaWQ+XG4gICAgICAgIDxHcmlkIGNvbnRhaW5lciBpdGVtIHNwYWNpbmc9ezN9PlxuICAgICAgICAgIDxGb3JtUm93IC8+XG4gICAgICAgIDwvR3JpZD5cbiAgICAgICAgPEdyaWQgY29udGFpbmVyIGl0ZW0gc3BhY2luZz17M30+XG4gICAgICAgICAgPEZvcm1Sb3cgLz5cbiAgICAgICAgPC9HcmlkPlxuICAgICAgPC9HcmlkPlxuICAgIDwvQm94PlxuICApO1xufVxuIiwicGFja2FnZUpTT04iOiJ7XG4gICAgXCJuYW1lXCI6IFwic3VwZXJub3ZhLWxpdmUtcmVhY3RcIixcbiAgICBcInZlcnNpb25cIjogXCIxLjAuMFwiLFxuICAgIFwiZGVzY3JpcHRpb25cIjogXCJMaXZlIFJlYWN0IENvZGUgUGFja2FnZXJcIixcbiAgICBcImtleXdvcmRzXCI6IFtcInJlYWN0XCIsIFwic3VwZXJub3ZhXCJdLFxuICAgIFwibWFpblwiOiBcInNyYy9pbmRleC5qc1wiLFxuICAgIFwiZGVwZW5kZW5jaWVzXCI6IHtcbiAgICAgIFwicmVhY3QtZG9tXCI6IFwibGF0ZXN0XCIsXG4gICAgICBcInJlYWN0XCI6IFwibGF0ZXN0XCIsXG4gICAgICBcIkBtdWkvbWF0ZXJpYWxcIjogXCJsYXRlc3RcIixcbiAgICAgIFwiQGVtb3Rpb24vc3R5bGVkXCI6IFwibGF0ZXN0XCIsXG4gICAgICBcIkBlbW90aW9uL3JlYWN0XCI6IFwibGF0ZXN0XCJcbiAgXG4gICAgfSxcbiAgICBcImRldkRlcGVuZGVuY2llc1wiOiB7XG4gICAgICBcIkBiYWJlbC9ydW50aW1lXCI6IFwiNy4xMy44XCIsXG4gICAgICBcInR5cGVzY3JpcHRcIjogXCI0LjEuM1wiXG4gICAgfSxcbiAgICBcInNjcmlwdHNcIjoge1xuICAgICAgXCJzdGFydFwiOiBcInJlYWN0LXNjcmlwdHMgc3RhcnRcIixcbiAgICAgIFwiYnVpbGRcIjogXCJyZWFjdC1zY3JpcHRzIGJ1aWxkXCIsXG4gICAgICBcInRlc3RcIjogXCJyZWFjdC1zY3JpcHRzIHRlc3QgLS1lbnY9anNkb21cIixcbiAgICAgIFwiZWplY3RcIjogXCJyZWFjdC1zY3JpcHRzIGVqZWN0XCJcbiAgICB9LFxuICAgIFwiYnJvd3NlcnNsaXN0XCI6IFtcIj4wLjIlXCIsIFwibm90IGRlYWRcIiwgXCJub3QgaWUgPD0gMTFcIiwgXCJub3Qgb3BfbWluaSBhbGxcIl1cbiAgfSIsInZpc3VhbCI6eyJmb3JjZWRIZWlnaHQiOjE4OSwiaG9yaXpvbnRhbEFsaWdubWVudCI6ImNlbnRlciIsInZlcnRpY2FsQWxpZ25tZW50IjoiY2VudGVyIiwiYmFja2dyb3VuZEhleCI6IiNmOWY5ZmFmZiJ9fQ=="></div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="sandbox-container-meta">
+                                                    
+                                                            <div class="sandbox-container-buttons">
+                                                            
+                                                            <a class="btn btn-light" data-toggle="collapse" href="#codepreview-sandbox-54067896" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                Toggle code
+                                                            </a>
+                                                    
+                                                            
+                                                            <a class="btn btn-light sandbox-copy" data-toggle="tooltip" title="Copy component code">
+                                                                <div class="sandbox-copy-icon" data-toggle="copy-from-sandbox" data-target="sandbox-54067896"></div>
+                                                            </a>
+                                                            </div>
+                                                    
+                                                            
+                                                            <div class="sandbox-text collapse" id="codepreview-sandbox-54067896">
+                                                                <pre><code class="language-javascript">
+                                                                import * as React from 'react';
+                                                    import { styled } from '@mui/material/styles';
+                                                    import Box from '@mui/material/Box';
+                                                    import Paper from '@mui/material/Paper';
+                                                    import Grid from '@mui/material/Grid';
+                                                    
+                                                    const Item = styled(Paper)(({ theme }) =&gt; ({
+                                                      ...theme.typography.body2,
+                                                      padding: theme.spacing(1),
+                                                      textAlign: 'center',
+                                                      color: theme.palette.text.secondary,
+                                                    }));
+                                                    
+                                                    function FormRow() {
+                                                      return (
+                                                        &lt;React.Fragment&gt;
+                                                          &lt;Grid item xs={4}&gt;
+                                                            &lt;Item&gt;Item&lt;/Item&gt;
+                                                          &lt;/Grid&gt;
+                                                          &lt;Grid item xs={4}&gt;
+                                                            &lt;Item&gt;Item&lt;/Item&gt;
+                                                          &lt;/Grid&gt;
+                                                          &lt;Grid item xs={4}&gt;
+                                                            &lt;Item&gt;Item&lt;/Item&gt;
+                                                          &lt;/Grid&gt;
+                                                        &lt;/React.Fragment&gt;
+                                                      );
+                                                    }
+                                                    
+                                                    export default function NestedGrid() {
+                                                      return (
+                                                        &lt;Box sx={{ flexGrow: 1 }}&gt;
+                                                          &lt;Grid container spacing={1}&gt;
+                                                            &lt;Grid container item spacing={3}&gt;
+                                                              &lt;FormRow /&gt;
+                                                            &lt;/Grid&gt;
+                                                            &lt;Grid container item spacing={3}&gt;
+                                                              &lt;FormRow /&gt;
+                                                            &lt;/Grid&gt;
+                                                            &lt;Grid container item spacing={3}&gt;
+                                                              &lt;FormRow /&gt;
+                                                            &lt;/Grid&gt;
+                                                          &lt;/Grid&gt;
+                                                        &lt;/Box&gt;
+                                                      );
+                                                    }
+                                                    
+                                                                </code></pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                    
+                                        
+                                            
+                                                <h2 id="nested-grid">
+                                                                  
+                                                                  
+                                                              
+                                                              Nested Grid
+                                                              </h2>
+                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                       
+                                       
+                                   
+                                   The container and item properties are two independent booleans. They can be combined.
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                            
+                                                                <div class="alert alert-warning">
+                                                                                                         
+                                                                                                         
+                                                                                                     
+                                                                                                     A flex container is the box generated by an element with a computed display of flex or inline-flex. In-flow children of a flex container are called flex items and are laid out using the flex layout model.
+                                                                                                     </div>
+                                                            
+                    
+                    
+                                        
+                                
+                                
+                                <p>
+                                   
+                                   
+                                   </p>
+                                
+                                
+                    
+                    
+                                        
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <div class="sandbox-main-wrapper">
+                                                        
+                                                        <div class="sandbox-state-wrapper">
+                                                            <div class="sandbox-loader-container" data-target="sandbox-10093803">
+                                                                <div class="sandbox-loader"></div>
+                                                            </div>
+                                                            <div class="sandbox-container checkered-background-light" style="height: 331px; background-color: transparent">
+                                                                <div id="sandbox-10093803" sn-sandbox-data="eyJ0eXBlIjoicmVhY3QiLCJjb2RlIjoiaW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEJveCBmcm9tICdAbXVpL21hdGVyaWFsL0JveCc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG11aS9tYXRlcmlhbC9QYXBlcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbXVpL21hdGVyaWFsL0dyaWQnO1xuaW1wb3J0IEF2YXRhciBmcm9tICdAbXVpL21hdGVyaWFsL0F2YXRhcic7XG5pbXBvcnQgVHlwb2dyYXBoeSBmcm9tICdAbXVpL21hdGVyaWFsL1R5cG9ncmFwaHknO1xuXG5jb25zdCBtZXNzYWdlID0gYFRydW5jYXRpb24gc2hvdWxkIGJlIGNvbmRpdGlvbmFsbHkgYXBwbGljYWJsZSBvbiB0aGlzIGxvbmcgbGluZSBvZiB0ZXh0XG4gYXMgdGhpcyBpcyBhIG11Y2ggbG9uZ2VyIGxpbmUgdGhhbiB3aGF0IHRoZSBjb250YWluZXIgY2FuIHN1cHBvcnQuIGA7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEF1dG9HcmlkTm9XcmFwKCkge1xuICByZXR1cm4gKFxuICAgIDxCb3ggc3g9e3sgZmxleEdyb3c6IDEsIG92ZXJmbG93OiAnaGlkZGVuJywgcHg6IDMgfX0+XG4gICAgICA8UGFwZXIgc3g9e3sgbWF4V2lkdGg6IDQwMCwgbXk6IDEsIG14OiAnYXV0bycsIHA6IDIgfX0+XG4gICAgICAgIDxHcmlkIGNvbnRhaW5lciB3cmFwPVwibm93cmFwXCIgc3BhY2luZz17Mn0+XG4gICAgICAgICAgPEdyaWQgaXRlbT5cbiAgICAgICAgICAgIDxBdmF0YXI+VzwvQXZhdGFyPlxuICAgICAgICAgIDwvR3JpZD5cbiAgICAgICAgICA8R3JpZCBpdGVtIHhzIHplcm9NaW5XaWR0aD5cbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IG5vV3JhcD57bWVzc2FnZX08L1R5cG9ncmFwaHk+XG4gICAgICAgICAgPC9HcmlkPlxuICAgICAgICA8L0dyaWQ+XG4gICAgICA8L1BhcGVyPlxuICAgICAgPFBhcGVyIHN4PXt7IG1heFdpZHRoOiA0MDAsIG15OiAxLCBteDogJ2F1dG8nLCBwOiAyIH19PlxuICAgICAgICA8R3JpZCBjb250YWluZXIgd3JhcD1cIm5vd3JhcFwiIHNwYWNpbmc9ezJ9PlxuICAgICAgICAgIDxHcmlkIGl0ZW0+XG4gICAgICAgICAgICA8QXZhdGFyPlc8L0F2YXRhcj5cbiAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgICAgPEdyaWQgaXRlbSB4cz5cbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IG5vV3JhcD57bWVzc2FnZX08L1R5cG9ncmFwaHk+XG4gICAgICAgICAgPC9HcmlkPlxuICAgICAgICA8L0dyaWQ+XG4gICAgICA8L1BhcGVyPlxuICAgICAgPFBhcGVyIHN4PXt7IG1heFdpZHRoOiA0MDAsIG15OiAxLCBteDogJ2F1dG8nLCBwOiAyIH19PlxuICAgICAgICA8R3JpZCBjb250YWluZXIgd3JhcD1cIm5vd3JhcFwiIHNwYWNpbmc9ezJ9PlxuICAgICAgICAgIDxHcmlkIGl0ZW0+XG4gICAgICAgICAgICA8QXZhdGFyPlc8L0F2YXRhcj5cbiAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgICAgPEdyaWQgaXRlbSB4cz5cbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5PnttZXNzYWdlfTwvVHlwb2dyYXBoeT5cbiAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgIDwvR3JpZD5cbiAgICAgIDwvUGFwZXI+XG4gICAgPC9Cb3g+XG4gICk7XG59XG4iLCJwYWNrYWdlSlNPTiI6IntcbiAgICBcIm5hbWVcIjogXCJzdXBlcm5vdmEtbGl2ZS1yZWFjdFwiLFxuICAgIFwidmVyc2lvblwiOiBcIjEuMC4wXCIsXG4gICAgXCJkZXNjcmlwdGlvblwiOiBcIkxpdmUgUmVhY3QgQ29kZSBQYWNrYWdlclwiLFxuICAgIFwia2V5d29yZHNcIjogW1wicmVhY3RcIiwgXCJzdXBlcm5vdmFcIl0sXG4gICAgXCJtYWluXCI6IFwic3JjL2luZGV4LmpzXCIsXG4gICAgXCJkZXBlbmRlbmNpZXNcIjoge1xuICAgICAgXCJyZWFjdC1kb21cIjogXCJsYXRlc3RcIixcbiAgICAgIFwicmVhY3RcIjogXCJsYXRlc3RcIixcbiAgICAgIFwiQG11aS9tYXRlcmlhbFwiOiBcImxhdGVzdFwiLFxuICAgICAgXCJAZW1vdGlvbi9zdHlsZWRcIjogXCJsYXRlc3RcIixcbiAgICAgIFwiQGVtb3Rpb24vcmVhY3RcIjogXCJsYXRlc3RcIlxuICBcbiAgICB9LFxuICAgIFwiZGV2RGVwZW5kZW5jaWVzXCI6IHtcbiAgICAgIFwiQGJhYmVsL3J1bnRpbWVcIjogXCI3LjEzLjhcIixcbiAgICAgIFwidHlwZXNjcmlwdFwiOiBcIjQuMS4zXCJcbiAgICB9LFxuICAgIFwic2NyaXB0c1wiOiB7XG4gICAgICBcInN0YXJ0XCI6IFwicmVhY3Qtc2NyaXB0cyBzdGFydFwiLFxuICAgICAgXCJidWlsZFwiOiBcInJlYWN0LXNjcmlwdHMgYnVpbGRcIixcbiAgICAgIFwidGVzdFwiOiBcInJlYWN0LXNjcmlwdHMgdGVzdCAtLWVudj1qc2RvbVwiLFxuICAgICAgXCJlamVjdFwiOiBcInJlYWN0LXNjcmlwdHMgZWplY3RcIlxuICAgIH0sXG4gICAgXCJicm93c2Vyc2xpc3RcIjogW1wiPjAuMiVcIiwgXCJub3QgZGVhZFwiLCBcIm5vdCBpZSA8PSAxMVwiLCBcIm5vdCBvcF9taW5pIGFsbFwiXVxuICB9IiwidmlzdWFsIjp7ImZvcmNlZEhlaWdodCI6MzMxLCJob3Jpem9udGFsQWxpZ25tZW50IjoiY2VudGVyIiwidmVydGljYWxBbGlnbm1lbnQiOiJjZW50ZXIiLCJiYWNrZ3JvdW5kSGV4IjoiI2Y5ZjlmYWZmIn19"></div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="sandbox-container-meta">
+                                                    
+                                                            <div class="sandbox-container-buttons">
+                                                            
+                                                            <a class="btn btn-light" data-toggle="collapse" href="#codepreview-sandbox-10093803" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                Toggle code
+                                                            </a>
+                                                    
+                                                            
+                                                            <a class="btn btn-light sandbox-copy" data-toggle="tooltip" title="Copy component code">
+                                                                <div class="sandbox-copy-icon" data-toggle="copy-from-sandbox" data-target="sandbox-10093803"></div>
+                                                            </a>
+                                                            </div>
+                                                    
+                                                            
+                                                            <div class="sandbox-text collapse" id="codepreview-sandbox-10093803">
+                                                                <pre><code class="language-javascript">
+                                                                import * as React from 'react';
+                                                    import Box from '@mui/material/Box';
+                                                    import Paper from '@mui/material/Paper';
+                                                    import Grid from '@mui/material/Grid';
+                                                    import Avatar from '@mui/material/Avatar';
+                                                    import Typography from '@mui/material/Typography';
+                                                    
+                                                    const message = `Truncation should be conditionally applicable on this long line of text
+                                                     as this is a much longer line than what the container can support. `;
+                                                    
+                                                    export default function AutoGridNoWrap() {
+                                                      return (
+                                                        &lt;Box sx={{ flexGrow: 1, overflow: 'hidden', px: 3 }}&gt;
+                                                          &lt;Paper sx={{ maxWidth: 400, my: 1, mx: 'auto', p: 2 }}&gt;
+                                                            &lt;Grid container wrap="nowrap" spacing={2}&gt;
+                                                              &lt;Grid item&gt;
+                                                                &lt;Avatar&gt;W&lt;/Avatar&gt;
+                                                              &lt;/Grid&gt;
+                                                              &lt;Grid item xs zeroMinWidth&gt;
+                                                                &lt;Typography noWrap&gt;{message}&lt;/Typography&gt;
+                                                              &lt;/Grid&gt;
+                                                            &lt;/Grid&gt;
+                                                          &lt;/Paper&gt;
+                                                          &lt;Paper sx={{ maxWidth: 400, my: 1, mx: 'auto', p: 2 }}&gt;
+                                                            &lt;Grid container wrap="nowrap" spacing={2}&gt;
+                                                              &lt;Grid item&gt;
+                                                                &lt;Avatar&gt;W&lt;/Avatar&gt;
+                                                              &lt;/Grid&gt;
+                                                              &lt;Grid item xs&gt;
+                                                                &lt;Typography noWrap&gt;{message}&lt;/Typography&gt;
+                                                              &lt;/Grid&gt;
+                                                            &lt;/Grid&gt;
+                                                          &lt;/Paper&gt;
+                                                          &lt;Paper sx={{ maxWidth: 400, my: 1, mx: 'auto', p: 2 }}&gt;
+                                                            &lt;Grid container wrap="nowrap" spacing={2}&gt;
+                                                              &lt;Grid item&gt;
+                                                                &lt;Avatar&gt;W&lt;/Avatar&gt;
+                                                              &lt;/Grid&gt;
+                                                              &lt;Grid item xs&gt;
+                                                                &lt;Typography&gt;{message}&lt;/Typography&gt;
+                                                              &lt;/Grid&gt;
+                                                            &lt;/Grid&gt;
+                                                          &lt;/Paper&gt;
+                                                        &lt;/Box&gt;
+                                                      );
+                                                    }
+                                                    
+                                                                </code></pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                    
+                            </div>
+        </section>
+        <div id="content-nav-container">
+            <nav id="content-nav">
+                <span class="content-nav-header">CONTENTS</span>
+                <ul>
+                    <li class=""><a href="#how-it-works">How it works</a></li>
+                    <li class=""><a href="#spacing">Spacing</a></li>
+                    <li class=""><a href="#fluid-grids">Fluid grids</a></li>
+                    <li class="sub"><a href="#basic-grid">Basic grid</a></li>
+                    <li class=""><a href="#nested-grid">Nested Grid</a></li>
+                </ul>
+            </nav>
+        </div>      </div>
+    </div>
+  </div>
+  <!-- Content end --> 
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- JavaScript -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+
+<!-- Prism -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+
+<!-- Magnific Popup --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- Live sandbox -->
+<script src="/assets/js/live-sandbox.js"></script> 
+
+<!-- Search Support-->
+<script src="https://unpkg.com/lunr/lunr.js"></script>  
+<script src="/si.js"></script>  
+
+<!-- General scripts -->
+<script src="/assets/js/functionality.js"></script>
+
+<!-- Versions -->
+<script>
+$(document).ready(function() {
+    loadVersions("null/../versions.json")
+});
+</script>
+
+
+<!-- Intercom tracker -->
+<script>
+var APP_ID = "e8y21262"; 
+window.intercomSettings = {
+    app_id: APP_ID
+};
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);} } } )();</script>
+
+</body>
+</html>
