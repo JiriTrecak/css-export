@@ -24,10 +24,20 @@ const klm = {
            width: Measures.genericTiny,
            position: "Inside",
          };
+const klm3 = {
+           color: Colors.paletteBlueBlue200,
+           width: {
+                   measure: 1,
+                   unit: "Pixels",
+                   css: "1px"
+                  },
+           position: "Inside",
+         };
 
 
 export const Borders = {
       border,
       border2,
       klm,
+      klm3,
 }
