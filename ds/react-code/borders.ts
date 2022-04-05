@@ -33,6 +33,11 @@ const klm3 = {
                   },
            position: "Inside",
          };
+const borderX = {
+           color: Colors.semanticPrimaryCtaPrimaryBackground,
+           width: Measures.genericTiny,
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -40,4 +45,5 @@ export const Borders = {
       border2,
       klm,
       klm3,
+      borderX,
 }
