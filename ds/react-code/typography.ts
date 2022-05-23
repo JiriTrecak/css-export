@@ -1,7 +1,7 @@
 
 import { Measures } from './measures';
 const h1 = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 700,
            fontSize: {
@@ -26,7 +26,7 @@ const h1 = {
                        },
          };
 const h2 = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 700,
            fontSize: {
@@ -51,7 +51,7 @@ const h2 = {
                        },
          };
 const h3 = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 700,
            fontSize: {
@@ -76,7 +76,7 @@ const h3 = {
                        },
          };
 const h4 = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 700,
            fontSize: {
@@ -101,7 +101,7 @@ const h4 = {
                        },
          };
 const h5 = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 700,
            fontSize: {
@@ -126,7 +126,7 @@ const h5 = {
                        },
          };
 const largeLead = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -151,7 +151,7 @@ const largeLead = {
                        },
          };
 const mediumLead = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -176,7 +176,7 @@ const mediumLead = {
                        },
          };
 const paragraph = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -201,7 +201,7 @@ const paragraph = {
                        },
          };
 const smallParagraph = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -226,7 +226,7 @@ const smallParagraph = {
                        },
          };
 const tinyParagraph = {
-           fontFamily: "Montserrat",
+           fontFamily: "Blatant",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -238,6 +238,56 @@ const tinyParagraph = {
                           measure: 24,
                           unit: "Pixels",
                           css: "24px"
+                         },
+           letterSpacing: {
+                             measure: 0,
+                             unit: "Percent",
+                             css: "0%"
+                            },
+           textIndent: {
+                        measure: 0,
+                        unit: "Pixels",
+                        css: "0px"
+                       },
+         };
+const buttonLabel = {
+           fontFamily: "Blatant",
+           fontStyle: "normal",
+           fontWeight: 400,
+           fontSize: {
+                      measure: 21,
+                      unit: "Pixels",
+                      css: "21px"
+                     },
+           lineHeight: {
+                          measure: 29,
+                          unit: "Pixels",
+                          css: "29px"
+                         },
+           letterSpacing: {
+                             measure: 0,
+                             unit: "Percent",
+                             css: "0%"
+                            },
+           textIndent: {
+                        measure: 0,
+                        unit: "Pixels",
+                        css: "0px"
+                       },
+         };
+const sale = {
+           fontFamily: "Blatant",
+           fontStyle: "normal",
+           fontWeight: 700,
+           fontSize: {
+                      measure: 24,
+                      unit: "Pixels",
+                      css: "24px"
+                     },
+           lineHeight: {
+                          measure: 32,
+                          unit: "Pixels",
+                          css: "32px"
                          },
            letterSpacing: {
                              measure: 0,
@@ -263,4 +313,6 @@ export const Typographies = {
       paragraph,
       smallParagraph,
       tinyParagraph,
+      buttonLabel,
+      sale,
 }

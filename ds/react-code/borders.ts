@@ -2,7 +2,7 @@
 import { Colors } from './colors';
 import { Measures } from './measures';
 const border = {
-           color: Colors.semanticPrimaryCtaPrimaryBackground,
+           color: Colors.semanticPrimaryPrimaryBackground,
            width: {
                    measure: 1,
                    unit: "Pixels",
@@ -11,7 +11,7 @@ const border = {
            position: "Inside",
          };
 const border2 = {
-           color: Colors.semanticPrimaryCtaPrimaryBackground,
+           color: Colors.semanticPrimaryPrimaryBackground,
            width: {
                    measure: 1,
                    unit: "Pixels",
@@ -34,7 +34,7 @@ const klm3 = {
            position: "Inside",
          };
 const borderX = {
-           color: Colors.semanticPrimaryCtaPrimaryBackground,
+           color: Colors.semanticPrimaryPrimaryBackground,
            width: Measures.genericTiny,
            position: "Inside",
          };
