@@ -70,10 +70,8 @@
     --colorPaletteTealTeal700: #42948e;    
     --colorPaletteTealTeal600: #4aa69c;    
     --colorPaletteTealTeal500: #58c1b2;    
-    --colorPaletteTealTeal400: #6addc6;    
     --colorPaletteTealTeal300: #97e7d5;    
     --colorPaletteTealTeal200: #c0f0e6;    
-    --colorPaletteTealTeal100: #d5f6ef;    
     --colorPaletteTealTeal0: #e9f8f5;    
     --colorPalettePinkPink1100: #281821;    
     --colorPalettePinkPink1000: #4f1930;    
@@ -136,11 +134,11 @@
     --colorPaletteMagentaMagenta200: #ecc7f4;    
     --colorPaletteMagentaMagenta100: #f5e4fa;    
     --colorPaletteMagentaMagenta0: #fcf0fe;    
-    --colorSemanticPrimaryCtaPrimaryActivebackground: #245685;    
-    --colorSemanticPrimaryCtaPrimaryHoverbackground: #306ca5;    
-    --colorSemanticPrimaryCtaPrimaryHovercolor: #ffffff;    
-    --colorSemanticPrimaryCtaPrimaryBackground: #3a79bd;    
-    --colorSemanticPrimaryCtaPrimaryColor: #ffffff;    
+    --colorSemanticPrimaryPrimaryActivebackground: #453e96;    
+    --colorSemanticPrimaryPrimaryHoverbackground: #5a52b4;    
+    --colorSemanticPrimaryPrimaryHovercolor: #ffffff;    
+    --colorSemanticPrimaryPrimaryBackground: #6b62cc;    
+    --colorSemanticPrimaryPrimaryColor: #ffffff;    
     --colorSemanticTextTextInverse: #ffffff;    
     --colorSemanticTextTextSubtext: #545e5f;    
     --colorSemanticTextTextHeadline: #293333;    
@@ -161,8 +159,15 @@
     --colorSemanticInfoInfoIcon: #306ca5;    
     --colorSemanticInfoInfoBorder: #6aacef;    
     --colorSemanticInfoInfoBackground: #e0f1fe;    
-    --colorSemanticOpportunityOpportunityColor: #5a52b4;    
-    --colorSemanticOpportunityOpportunityIcon: #5a52b4;    
-    --colorSemanticOpportunityOpportunityBorder: #9e95ec;    
-    --colorSemanticOpportunityOpportunityBackground: #eaeaf8;    
+    --colorSemanticOpportunityOpportunityColor: #357a7b;    
+    --colorSemanticOpportunityOpportunityIcon: #357a7b;    
+    --colorSemanticOpportunityOpportunityBorder: #6addc6;    
+    --colorSemanticOpportunityOpportunityBackground: #d5f6ef;    
+    --colorSemanticPrimaryPrimaryInnactivebackground: #d8d8f6;    
+    --colorSemanticPrimaryPrimaryBorder: #6b62cc;    
+    --colorSemanticPrimaryHoverinnactivebackground: #c0c2f3;    
+    --colorSemanticSaleSale70Background: #f6be41;    
+    --colorSemanticSaleSale50Background: #de638b;    
+    --colorSemanticSaleSale30Background: #58c1b2;    
+    --colorSemanticSaleSaleColor: #ffffff;    
 }
