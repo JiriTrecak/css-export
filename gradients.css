@@ -1,0 +1,9 @@
+
+:root {
+    --gradientTest: linear-gradient(
+          180deg,
+          #00000000 0%,   
+          #000000 100%  
+        )
+        ;    
+}
