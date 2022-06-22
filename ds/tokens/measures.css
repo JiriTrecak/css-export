@@ -1,0 +1,10 @@
+
+:root {
+    --measureSizingElementWidth: 100px;    
+    --measureGenericTiny: 2px;    
+    --measureGenericSmall: 8px;    
+    --measureGenericMedium: 12px;    
+    --measureSizingElementHeight: 300px;    
+    --measureGenericLarge: 20px;    
+    --measureIcon: 44px;    
+}
