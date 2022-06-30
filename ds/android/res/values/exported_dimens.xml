@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="icon">44dp</dimen> 
+
+    <dimen name="generic_tiny">2dp</dimen>
+    <dimen name="generic_small">8dp</dimen>
+    <dimen name="generic_medium">12dp</dimen>
+    <dimen name="generic_large">20dp</dimen> 
+
+    <dimen name="sizing_element_width">100dp</dimen>
+    <dimen name="sizing_element_height">300dp</dimen> 
+
+</resources>
