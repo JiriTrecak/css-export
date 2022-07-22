@@ -7,6 +7,7 @@ Welcome to our design system documentation! Below you will find the entire conte
 ### Introduction
 - [Overview](./introduction/overview-1.md)
 - [Principles](./introduction/principles.md)
+- [Links](./introduction/links-1.md)
  
 ### Foundation
 - [Brand](./foundation/brand.md)
