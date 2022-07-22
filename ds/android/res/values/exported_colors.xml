@@ -86,7 +86,6 @@
     <color name="palette_teal_teal_400">#ff6addc6</color>
     <color name="palette_teal_teal_300">#ff97e7d5</color>
     <color name="palette_teal_teal_200">#ffc0f0e6</color>
-    <color name="palette_teal_teal_100">#ffd5f6ef</color>
     <color name="palette_teal_teal_0">#ffe9f8f5</color>
 
     <color name="palette_pink_pink_1100">#ff281821</color>
@@ -136,7 +135,6 @@
     <color name="palette_yellow_yellow_900">#ff8b4f1f</color>
     <color name="palette_yellow_yellow_800">#ffb0772a</color>
     <color name="palette_yellow_yellow_700">#ffd49b35</color>
-    <color name="palette_yellow_yellow_600">#fff6be41</color>
     <color name="palette_yellow_yellow_500">#fff8ce4c</color>
     <color name="palette_yellow_yellow_400">#fffad961</color>
     <color name="palette_yellow_yellow_300">#fffbe17f</color>
@@ -158,14 +156,14 @@
     <color name="palette_magenta_magenta_0">#fffcf0fe</color>
 
 
-    <color name="semantic_primary_primary_active_background">#ff453e96</color>
-    <color name="semantic_primary_primary_hover_background">#ff5a52b4</color>
-    <color name="semantic_primary_primary_hover_color">#ffffffff</color>
-    <color name="semantic_primary_primary_background">#ff6b62cc</color>
-    <color name="semantic_primary_primary_color">#ffffffff</color>
-    <color name="semantic_primary_primary_innactive_background">#ffd8d8f6</color>
-    <color name="semantic_primary_primary_border">#ff6b62cc</color>
-    <color name="semantic_primary_hover_innactive_background">#ffc0c2f3</color>
+    <color name="semantic_primary_primary_active_background">#ff58c1b2</color>
+    <color name="semantic_primary_primary_hover_background">#ff6addc6</color>
+    <color name="semantic_primary_primary_hover_color">#ff1b3e3e</color>
+    <color name="semantic_primary_primary_background">#ff97e7d5</color>
+    <color name="semantic_primary_primary_color">#ff2a6461</color>
+    <color name="semantic_primary_cta_primary_active_background">#ffdfe1e1</color>
+    <color name="semantic_primary_primary_border">#ff2a6461</color>
+    <color name="semantic_primary_hover_innactive_background">#ffc9cccc</color>
 
     <color name="semantic_text_text_inverse">#ffffffff</color>
     <color name="semantic_text_text_subtext">#ff545e5f</color>
@@ -187,20 +185,21 @@
     <color name="semantic_success_success_border">#ff8fda75</color>
     <color name="semantic_success_success_background">#ffddf3d9</color>
 
-    <color name="semantic_info_info_color">#ff3a79bd</color>
-    <color name="semantic_info_info_icon">#ff306ca5</color>
-    <color name="semantic_info_info_border">#ff6aacef</color>
-    <color name="semantic_info_info_background">#ffe0f1fe</color>
+    <color name="semantic_info_info_color">#ff6b62cc</color>
+    <color name="semantic_info_info_icon">#ff5a52b4</color>
+    <color name="semantic_info_info_border">#ff9e95ec</color>
+    <color name="semantic_info_info_background">#ffeaeaf8</color>
 
-    <color name="semantic_opportunity_opportunity_color">#ff357a7b</color>
-    <color name="semantic_opportunity_opportunity_icon">#ff357a7b</color>
-    <color name="semantic_opportunity_opportunity_border">#ff6addc6</color>
-    <color name="semantic_opportunity_opportunity_background">#ffd5f6ef</color>
+    <color name="semantic_opportunity_opportunity_color">#ffa43b5b</color>
+    <color name="semantic_opportunity_opportunity_icon">#ffa43b5b</color>
+    <color name="semantic_opportunity_opportunity_border">#ffee7fad</color>
+    <color name="semantic_opportunity_opportunity_background">#fff7dcea</color>
 
-    <color name="semantic_sale_sale_70_background">#fff6be41</color>
-    <color name="semantic_sale_sale_50_background">#ffde638b</color>
-    <color name="semantic_sale_sale_30_background">#ff58c1b2</color>
-    <color name="semantic_sale_sale_color">#ffffffff</color>
+
+    <color name="special_rating_rating_on">#fff6be41</color>
+    <color name="special_rating_rating_hover_on">#ffd49b35</color>
+    <color name="special_rating_rating_off">#ffdfe1e1</color>
+    <color name="special_rating_rating_hover_off">#fff6be41</color>
 
 
 </resources>
