@@ -4,6 +4,9 @@ Welcome to our design system documentation! Below you will find the entire conte
 
 ## Content
  
+### Upcoming
+- [Button](./upcoming/button.md)
+ 
 ### Introduction
 - [Overview](./introduction/overview-1.md)
 - [Principles](./introduction/principles.md)
@@ -38,8 +41,6 @@ Welcome to our design system documentation! Below you will find the entire conte
     - [Breadcrumbs](./components/library/navigation/breadcrumbs.md)
     - [Menu](./components/library/navigation/menu.md)
     - [Tabs](./components/library/navigation/tabs.md)
-  - [Experimental](./components/library/experimental/new-sections.md)
-    - [New Sections](./components/library/experimental/new-sections.md)
 
 ## Generated documentation
 

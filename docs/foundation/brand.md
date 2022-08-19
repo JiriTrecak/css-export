@@ -5,9 +5,9 @@
 
 ## Logo Symbol
 
-The logo was tweaked slightly to be more symmetrical, each of the four rings slightly overlaps much like a current product build process, but they all come together to form a perfect full circle, a concept used throughout our brand to represent the complete, coherent relationship between design and development. 
-
 Keeping our logo black and white references back to the concept of yin and yang — dualism, describing how seemingly opposite or contrary forces may actually be complementary, interconnected, and interdependent.
+
+The logo was tweaked slightly to be more symmetrical, each of the four rings slightly overlaps much like a current product build process, but they all come together to form a perfect full circle, a concept used throughout our brand to represent the complete, coherent relationship between design and development. 
 
 ![Img](https://studio-assets-dev.supernova.io/design-systems/460/54245915-f9e5-4d0b-ae85-948a6bcb3fe9.png?Expires=1974931200&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwLzU0MjQ1OTE1LWY5ZTUtNGQwYi1hZTg1LTk0OGE2YmNiM2ZlOS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzQ5MzEyMDB9fX1dfQ__&Signature=OTqWggaCFIls609l3DipTZY3dlEE2sCYdPQpIFfDPdiVxYPwKimIcGfpRseGRQE88MvQzCK1Ma0mctT9uMGjREcrn3NwAfZAicRfUvtAf7jKyRr0VV1qisfWa~bdlUhj1NtjfvaZPd75jBomTLzb52t2TM5GXbT0RpLDLx~FyecBAhHyFa9AEkbSimnENZFZjDeYQahlSCfqUHX~u0TPeLN0uQE-zXg80u~Z9Csw2YWteWi5mrbjGqr3UdU~dJQWkYfTNRsEOjVcaBPHSEbHUNTgpxwbfCKzFwyNhaaPr2emVqb2YSsx0A5FVJ~Azjstx7hk1X4guHQP7~IJllNimw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 

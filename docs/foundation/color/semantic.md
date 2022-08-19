@@ -19,16 +19,19 @@ Used for conveying *information*.
 
 Used for communicating a *success state *or a *positive action *(such as confirm).
 
+> Yay:  
 > Example of colors in use for a success state.
 
 ## Critical
 
 Used for communicating a *critical state* or a *negative action*.
 
+> Please note:  
 > Example of colors in use for a critical state.
 
 ## Warning
 
 Used for communicating a *warning state*.
 
+> Be warned:  
 > Example of colors in use for a warning state.

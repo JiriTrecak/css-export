@@ -11,10 +11,6 @@
 
 To unlock interdisciplinary excellence. To explore pixel-perfect code generation. To push the boundaries of product design — at lightspeed. Docs.
 
-And this is new line with space inbetween.
-
-asdasdasdAnd following one!
-
 ## Vision
 
 *What future does Supernova want to help create?*
@@ -27,4 +23,14 @@ We envision a product design process where teams can seamlessly collaborate, inn
 
 We provide the essential [design](https://google.com)-to-code tools product designers and developers need to eliminate imprecision, automate tedium, and pioneer the collaborative possibilities of product design.
 
-Also new line! This line will be tight.no
+```javascript  
+import React from 'react';
+
+export default function Button(props) {
+ return (
+   <button>
+     Click me!
+   </button>
+ );
+}  
+```

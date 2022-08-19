@@ -79,4 +79,5 @@ Tone is brief, punchy, and clear.
 
 _This tone hierarchy was inspired by Writing is Designing page 120.**_
 
+> Some extra info:  
 > Remember, we are writing for people who have deadlines to meet and stakeholders to convince. Always consider where users are in a flow, and what they are feeling at that moment.

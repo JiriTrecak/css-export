@@ -21,14 +21,9 @@ Used for text that represents code.
 
 # Downloads
 
+  
+[Open link](https://fonts.google.com/specimen/Poppins)  
 
 
-Missing parser for block type Embed
-
- 
-
-
-
-Missing parser for block type Embed
-
- 
+  
+[Open link](https://fonts.google.com/specimen/Fira+Mono)  
