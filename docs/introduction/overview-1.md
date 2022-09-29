@@ -3,13 +3,20 @@
 
 ---
 
-![Img](https://studio-assets-dev.supernova.io/design-systems/460/3ae75ad9-75da-4c3c-815e-b7436fbe110c.png?Expires=1974931200&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwLzNhZTc1YWQ5LTc1ZGEtNGMzYy04MTVlLWI3NDM2ZmJlMTEwYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzQ5MzEyMDB9fX1dfQ__&Signature=GqiErMJbvGVONBSTx2hVPW~RNu8F3a4jTiG7LwJjX5KxUNFDeAhrE8q~a6YdcOsOTnVAA2CQ7TOL6ZrhgHq8JjbKajARZiqSBi4wFqWTf8HSBBA2tHJ9dgRL2Dt17rCRTsuIwMcpCwM7AwLZ3Yh0JVJR2hKN4~RV1hRvG1xeMnT7qpZhB12L1zlnk2LyTYW9X8YIR0i3-PjYEzMHIW-7D8d4InMpsltb9zzVLsaHVmdz3Rw0MXj~O758Is0HugoAE2XKCfWTbIn4y-w6Sf83WaJ~5wfJao9NxEDEdUseBf0yM6pp3N3xNZY4cwBS8oXfVPCvhrngaqsf0vflBrSRRA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
+![Img](https://studio-assets-dev.supernova.io/design-systems/460/3ae75ad9-75da-4c3c-815e-b7436fbe110c.png?Expires=1977609600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLWRldi5zdXBlcm5vdmEuaW8vZGVzaWduLXN5c3RlbXMvNDYwLzNhZTc1YWQ5LTc1ZGEtNGMzYy04MTVlLWI3NDM2ZmJlMTEwYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5Nzc2MDk2MDB9fX1dfQ__&Signature=PIbFDPQ~E5jkTsf9VYLo8TE~zuTsBeSnw3Bw-CFJaP-UZMUo2SKe2DY8aUL8tLfgP5CKWQm1PtEpZJXtwcL5S7rjd8j4EjtIqXGElSUmSUovZBswgpJzBYm2-xzX00ocHmv1BqED43d8rtj3VaARWAHiOJ28yThHiAX~b70lkC4X6HTJ4sHOF3yrqDdbU~7WJSVb1hH-xmQghGzb~DOF8LjBDPKQhd-4B7Zg3ZoxkmurroAl2rnNxI~6Cyc0hCz8Uz~~UAhbkdkjDW5fjBHiKhpHiM6rQh6PBRODpQmxaMH9ometMteKAlxn6PTxAXqBJoQW5D51qcVZ0i70hrYWWA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
 ## Purpose
 
 *Why does Supernova exist?*
 
 To unlock interdisciplinary excellence. To explore pixel-perfect code generation. To push the boundaries of product design — at lightspeed. Docs.
+
+  
+| Column 1 | Column 2 |  
+| --- | --- |  
+|  |  |  
+|  |  |  
+
 
 ## Vision
 

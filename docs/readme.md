@@ -6,6 +6,8 @@ Welcome to our design system documentation! Below you will find the entire conte
  
 ### Upcoming
 - [Button](./upcoming/button.md)
+- [Calendar](./upcoming/calendar-1.md)
+- [Private](./upcoming/private-1.md)
  
 ### Introduction
 - [Overview](./introduction/overview-1.md)
