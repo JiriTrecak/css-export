@@ -1,3 +1,35 @@
 
 :root {
+    --measureDimensionDimensionScale: 2px;    
+    --measureDimensionDimensionXs: 4px;    
+    --measureDimensionDimensionSm: 8px;    
+    --measureDimensionDimensionMd: 16px;    
+    --measureDimensionDimensionLg: 32px;    
+    --measureDimensionDimensionXl: 64px;    
+    --measureOpacityOpacityLow: 10%;    
+    --measureOpacityOpacityMd: 50%;    
+    --measureOpacityOpacityHigh: 90%;    
+    --measureLineHeightLineheightsHeading: 110%;    
+    --measureLineHeightLineheightsBody: 140%;    
+    --measureLetterSpacingLetterspacingDefault: 0px;    
+    --measureLetterSpacingLetterspacingIncreased: 150%;    
+    --measureLetterSpacingLetterspacingDecreased: -5%;    
+    --measureParagraphSpacingParagraphspacingH1: 32px;    
+    --measureParagraphSpacingParagraphspacingH2: 26px;    
+    --measureFontSizeFontsizesBody: 16px;    
+    --measureFontSizeFontsizesH6: 16px;    
+    --measureFontSizeFontsizesSm: 13.6px;    
+    --measureFontSizeFontsizesXs: 10.4px;    
+    --measureFontSizeFontsizesH5: 20px;    
+    --measureFontSizeFontsizesH4: 25px;    
+    --measureFontSizeFontsizesH3: 31.25px;    
+    --measureFontSizeFontsizesH2: 39.063px;    
+    --measureFontSizeFontsizesH1: 48.829px;    
+    /* You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens */
+    --measureSpacingSpacingMultiValue: 864px;    
+    --measureSpacingSpacingXs: var(--measureDimensionDimensionXs);    
+    --measureSpacingSpacingSm: var(--measureDimensionDimensionSm);    
+    --measureSpacingSpacingMd: var(--measureDimensionDimensionMd);    
+    --measureSpacingSpacingLg: var(--measureDimensionDimensionLg);    
+    --measureSpacingSpacingXl: var(--measureDimensionDimensionXl);    
 }
