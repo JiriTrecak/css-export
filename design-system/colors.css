@@ -93,10 +93,10 @@
     --colorColorsPink800: #97266d;    
     --colorColorsPink900: #702459;    
     --colorFgDefault: #3a3a3a;    
+    --colorFgMuted: #626262;    
     --colorFgSubtle: #c7c7c7;    
     --colorAccentDefault: #1f1d38;    
     --colorAccentOnaccent: #4161c3;    
-    --colorFgMuted: var(--colorColorsPink500);    
     --colorBgDefault: var(--colorColorsWhite);    
     --colorBgMuted: var(--colorColorsGray100);    
     --colorBgSubtle: var(--colorColorsGray200);    
