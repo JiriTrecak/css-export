@@ -199,6 +199,9 @@
 
     <color name="semantic_sale_sale_70_background">#fff6be41</color>
     <color name="semantic_sale_sale_50_background">#ffde638b</color>
+    <!-- 
+        Some test description 
+    -->
     <color name="semantic_sale_sale_30_background">#ff58c1b2</color>
     <color name="semantic_sale_sale_color">#ffffffff</color>
 
