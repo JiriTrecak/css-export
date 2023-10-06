@@ -1,0 +1,40 @@
+
+:root {
+    --measureDimensionDimensionDimensionScale: 2px;    
+    --measureDimensionDimensionDimensionXs: 4px;    
+    --measureDimensionDimensionDimensionSm: 8px;    
+    --measureDimensionDimensionDimensionMd: 16px;    
+    --measureDimensionDimensionDimensionLg: 32px;    
+    --measureDimensionDimensionDimensionXl: 64px;    
+    --measureOpacityOpacityOpacityLow: 10%;    
+    --measureOpacityOpacityOpacityMd: 50%;    
+    --measureOpacityOpacityOpacityHigh: 90%;    
+    --measureLineHeightLineHeightLineheightsHeading: 110%;    
+    --measureLineHeightLineHeightLineheightsBody: 140%;    
+    --measureLetterSpacingLetterSpacingLetterspacingDefault: 0px;    
+    --measureLetterSpacingLetterSpacingLetterspacingIncreased: 150%;    
+    --measureLetterSpacingLetterSpacingLetterspacingDecreased: -5%;    
+    --measureParagraphSpacingParagraphSpacingParagraphspacingH1: 32px;    
+    --measureParagraphSpacingParagraphSpacingParagraphspacingH2: 26px;    
+    --measureFontSizingFontSizeFontsizesBody: 16px;    
+    --measureFontSizingFontSizeFontsizesH6: 16px;    
+    --measureFontSizingFontSizeFontsizesSm: 13.6px;    
+    --measureFontSizingFontSizeFontsizesXs: 10.4px;    
+    --measureFontSizingFontSizeFontsizesH5: 20px;    
+    --measureFontSizingFontSizeFontsizesH4: 25px;    
+    --measureFontSizingFontSizeFontsizesH3: 31.25px;    
+    --measureFontSizingFontSizeFontsizesH2: 39.063px;    
+    --measureFontSizingFontSizeFontsizesH1: 48.829px;    
+    --measureSpacingSpacingSpacingXs: 4px;    
+    --measureSpacingSpacingSpacingSm: 8px;    
+    --measureSpacingSpacingSpacingMd: 16px;    
+    --measureSpacingSpacingSpacingLg: 32px;    
+    --measureSpacingSpacingSpacingXl: 64px;    
+    /* You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens */
+    --measureSpacingSpacingSpacingMultiValue: 864px;    
+    --measureBorderRadiusBorderRadiusBorderradiusSm: 4px;    
+    --measureBorderRadiusBorderRadiusBorderradiusLg: 8px;    
+    --measureBorderRadiusBorderRadiusBorderradiusXl: 16px;    
+    /* You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
+    --measureBorderRadiusBorderRadiusBorderradiusMultiValue: 0px;    
+}
